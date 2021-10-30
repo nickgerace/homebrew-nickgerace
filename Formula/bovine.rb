@@ -1,8 +1,8 @@
 class Bovine < Formula
   desc "Manager for single node Rancher clusters"
   homepage "https://nickgerace.dev"
-  url "https://github.com/nickgerace/bovine/archive/refs/tags/1.0.1.tar.gz"
-  sha256 "7b2221c394a435d3a86e1da3919ca0bb7a2be3ea816bf2c06fdd7788be6d4502"
+  url "https://github.com/nickgerace/bovine/archive/refs/tags/1.0.2.tar.gz"
+  sha256 "37e6ccd81a99f810eb9f4cf11e1c3e3096975274a36e8aaafd2461af0e0d4c29"
   license "Apache-2.0"
 
   depends_on "rust" => :build
