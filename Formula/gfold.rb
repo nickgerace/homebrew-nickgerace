@@ -10,7 +10,7 @@ class Gfold < Formula
   uses_from_macos "zlib"
 
   def install
-    system "cargo", "install", *std_cargo_args
+    system "cargo", "install", *std_cargo_args(path: "./crates/gfold")
   end
 
   test do
