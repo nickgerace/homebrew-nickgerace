@@ -1,8 +1,8 @@
 class Gfold < Formula
   desc "CLI tool to help keep track of your Git repositories, written in Rust"
   homepage "https://nickgerace.dev"
-  url "https://github.com/nickgerace/gfold/archive/refs/tags/4.3.3.tar.gz"
-  sha256 "27f99702221229dfce343c6aa2d80105fdad24f200628c36005d51cbb6242b04"
+  url "https://github.com/nickgerace/gfold/archive/refs/tags/4.4.0.tar.gz"
+  sha256 "d1f8c5a578bc20751a8584c73d4df3092364b0616226656d71dbf954edd481c3"
   license "Apache-2.0"
 
   depends_on "rust" => :build
